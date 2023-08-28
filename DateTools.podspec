@@ -12,8 +12,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/runtastic/DateTools.git",
                      :tag => "v#{s.version.to_s}" }
 
-  s.ios.platform = :ios, '7.0'
-  s.osx.platform = :iox, '10.7'
+  s.platforms = { :ios => '7.0', :osx => '10.7' }
   s.requires_arc = true
 
   s.preserve_path = 'Project.swift'
