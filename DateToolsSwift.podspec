@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'DateToolsSwift'
-  s.version      = '4.0.0'
+  s.version      = '4.0.1'
   s.summary      = 'Dates and time made easy in Swift'
   s.homepage     = 'https://github.com/MatthewYork/DateTools'
 
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Matthew York" => "my3681@gmail.com" }
 
-  s.source       = { :git => "https://github.com/MatthewYork/DateTools.git",
+  s.source       = { :git => "https://github.com/runtastic/DateTools.git",
                      :tag => "#{s.version.to_s}" }
 
   s.ios.deployment_target = '8.0'
