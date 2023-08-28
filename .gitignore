@@ -18,5 +18,9 @@ DerivedData
 *.xccheckout
 .build/
 
-#CocoaPods
+# CocoaPods
 Pods
+
+# Tuist
+DateTools.xcodeproj
+DateTools.xcworkspace
