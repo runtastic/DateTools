@@ -22,7 +22,8 @@
 
 #ifndef DateToolsLocalizedStrings
 
-#ifdef SPM
+// 2024-11-07 yel: quick fix for our Tuist setup to make DateToolsObjc compile properly: https://github.com/tuist/tuist/pull/6584
+#ifdef SWIFTPM_MODULE_BUNDLE
 #define DateToolsLocalizedStrings(key) \
 NSLocalizedStringFromTableInBundle(key, @"DateTools", [NSBundle bundleWithPath:[[SWIFTPM_MODULE_BUNDLE resourcePath] stringByAppendingPathComponent:@"DateTools.bundle"]], nil)
 #else
